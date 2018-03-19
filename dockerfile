@@ -8,7 +8,7 @@ ENV RAVEN_ARGS='' RAVEN_SETTINGS='' RAVEN_Setup_Mode='Initial' RAVEN_DataDir='Ra
 
 EXPOSE 8080 38888 161
 
-COPY RavenDB-4.0.0-rpi.tar.bz2 /opt/RavenDB.tar.bz2
+COPY RavenDB.tar.bz2 /opt/RavenDB.tar.bz2
 
 RUN cd /opt \
     && tar xjvf RavenDB.tar.bz2 \
